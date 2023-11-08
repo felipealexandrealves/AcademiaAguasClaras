@@ -64,3 +64,17 @@
   left: 0;
   flex-shrink: 0;
 }
+
+.image_icon {
+  width: 89px;
+  height: 89px;
+}
+
+.image_icon .logo-removebg {
+  position: fixed;
+  width: 89px;
+  height: 89px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
