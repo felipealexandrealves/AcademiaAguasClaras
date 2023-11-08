@@ -25,3 +25,16 @@
   background: rgba(255, 255, 255, 0.30);
   flex-shrink: 0;
 }
+.box_menu{
+  width: 1440px;
+  height: 130px;
+}
+
+.box_menu .rectangle{
+  position: fixed;
+  width: 1440px;
+  height: 130px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff80;
+}
