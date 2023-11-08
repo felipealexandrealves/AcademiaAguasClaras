@@ -60,9 +60,8 @@
 .container_menu .con-menu-e-icon {
   width: 984px;
   height: 128px;
-  top: 0;
-  left: 0;
-  align-items: flex-start;
+  padding-left: 228px;
+  padding-right: 228px;
 }
 
 .image_icon {
