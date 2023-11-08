@@ -51,3 +51,16 @@
   left: 0;
   background-color: #ffffff;
 }
+
+.container_menu {
+  width: 984px;
+  height: 128px;
+}
+
+.container_menu .con-menu-e-icon {
+  width: 984px;
+  height: 128px;
+  top: 0;
+  left: 0;
+  flex-shrink: 0;
+}
