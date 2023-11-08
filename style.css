@@ -38,3 +38,17 @@
   left: 0;
   background-color: #ffffff80;
 }
+
+.box_icon {
+  width: 55px;
+  height: 55px;
+}
+
+.box_icon .icon {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
