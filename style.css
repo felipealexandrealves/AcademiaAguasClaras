@@ -22,5 +22,6 @@
   height: 728px;
   top: 0;
   left: 0;
-  background-color: #ffffff4c;
+  background: rgba(255, 255, 255, 0.30);
+  flex-shrink: 0;
 }
