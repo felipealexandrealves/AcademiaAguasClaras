@@ -9,31 +9,121 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&family=Zen+Dots&display=swap" rel="stylesheet">
+   
 </head>
   <body>
+    <script>
+      function atualizarOpacidade() {
+        var objeto = document.getElementById('container_unidades');
+        var alturaObjeto = objeto.offsetTop;
+        var scrollTop = window.scrollY;
+        var windowHeight = window.innerHeight;
+        var novaOpacidade;
+  
+        if (scrollTop > alturaObjeto - windowHeight + 100) {
+          novaOpacidade = 1;
+        } else {
+          novaOpacidade = 0;
+        }
+  
+        objeto.style.opacity = novaOpacidade;
+      }
+  
+      window.addEventListener('scroll', atualizarOpacidade);
+    </script>
     <div class ="image">
       <img class ="braco-de-treinamento" src="img/braco-de-treinamento-para-fisiculturista-com-banda-de-resistencia.jpg">
-      <div class="box"><div class="rectangle">
-
-      <div class="box_menu"><div class="rectangle">
-        <div class="container_menu">
-          <div class="image_icon"><img class="logo-removebg" src="img/logo_-removebg-preview.png"></div>
-          <a href="planos.html"><h1 id="menu">PLANOS</h1></a>
-          <a href="areadoaluno.html"><h1 id="menu">ÁREA DO ALUNO</h1></a>
-          <a href="sejaumfranqueado.html"><h1 id="menu">SEJA UM FRANQUEADO</h1></a>
-          <a href="cadastrar.html"><h1 id="menu">CADASTRAR</h1></a>
-          <a href="login.html"><h1 id="menu">LOGIN</h1></a>
+        <div class="box">
+          <div class="rectangle">
+           <div class="box_menu">
+             <div class="rectangle">
+               <div class="container_menu">
+                  <div class="image_icon">
+                   <img class="logo-removebg" src="img/logo_-removebg-preview.png">
+                  </div>
+                  <a href="planos.html"><h1 id="menu">PLANOS</h1></a>
+                  <a href="areadoaluno.html"><h1 id="menu">ÁREA DO ALUNO</h1></a>
+                 <a href="sejaumfranqueado.html"><h1 id="menu">SEJA UM FRANQUEADO</h1></a>
+                 <a href="cadastrar.html"><h1 id="menu">CADASTRAR</h1></a>
+                 <a href="login.html"><h1 id="menu">LOGIN</h1></a>
+                </div>
+              </div>
+            </div>
+          <div class="container_msgPrincipal">
+            <h1 id="label_principal">BEM-VINDO AO SITE DA REDE DE ACADEMIA ÁGUAS CLARAS!</h1>
+            <h1 id="subtitulo_principal">
+              Somos uma academia que busca o alto rendimento e desenvolvimento da sua saúde através da musculação.
+            </h1>
+          </div>
         </div>
       </div>
-      </div>
-      <div class="container_msgPrincipal">
-        <h1 id="label_principal">BEM-VINDO AO SITE DA REDE DE ACADEMIA ÁGUAS CLARAS!</h1>
-        <h1 id="subtitulo_principal">
-          Somos uma academia que busca o alto rendimento e desenvolvimento da sua saúde através da musculação.
-        </h1>
+    </div>
+  <div class="image_texture">
+    <img class="picture" id="escurecer" src="img/dirty-metal-texture.jpg">
+      <div id="ponte">
+      <div class="container_msgUnidades">
+        <h1 id="msgUnidades">NOSSAS PRINCIPAIS UNIDADES</h1>
       </div>
     </div>
+      <div id="container_unidades">
+       <div class="unidades">
+          <div id="fundoUnidades">
+            <div>
+              <img class="halteres1" src="img/halteres-no-chao-de-uma-academia-ai-generative (1).jpg">
+            </div>
+            <div class="containertxtUnidades">
+              <div id="titulosUnidades">
+                <div id="ponteTexto">
+                <h1 id="unidadestxt">UNIDADE GOIOERÊ</h1>
+              </div>
+              <div id="pontoBotao">
+                <div class="botao_style">
+                  <a class="elementoUnidade" href="conhecasuaunidade.html">
+                    <img class="seta" src="img/kisspng-blue-ice-business-wadi-wurayah-youtube-white-arrow-5b20b6c89f0d41.1011197815288706006515.png">
+                        <div class="elementsUnidades">
+                          SAIBA MAIS
+                        </div>
+                      
+                  </a>
+                 </div>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+          </div>
     </div>
+
+    <div class="convite">
+      
+      <img class="img_convite" src="img/young-healthy-man-athlete-doing-exercise-with-ropes-gym-single-male-model-practicing-hard-training-his-upper-body-concept-healthy-lifestyle-sport-fitness-bodybuilding-wellbeing.jpg">
+      <div class="container_convite">
+        <h1 id="txt_convite">Venha Fazer Parte Da Maior Rede De Academias do Sistema Solar!</h1>
+      </div>
+    </div>
+
+    <div class="objetivos">
+      <div class="background_objetivos">
+        <img class="img_objetivos" src="img/man-moving-giant-tire-wheel-gym.jpg">
+        <div class="container_objetivos">
+          <div class="principal_objetivos">
+            <h1 id="principal_objetivos">Nosso objetivo é fazer de você um atleta com disposição para as atividades da rotina!</h1>
+          </div>
+          <div class="sub_objetivos">
+            <div class="subtext_objetivos">
+              <h3 id="subtext_objetivos">FIQUE LIGADO SEMPRE NAS NOSSAS PROMOÇÕES</h3>
+            </div>
+            <div class="botao_objetivos">
+              <div class="rectangle_botao_objetivos">
+                <img class="seta" src="img/kisspng-blue-ice-business-wadi-wurayah-youtube-white-arrow-5b20b6c89f0d41.1011197815288706006515.png">
+                <div class="elementsUnidades">
+                  SAIBA MAIS
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 </body>
 </html>
